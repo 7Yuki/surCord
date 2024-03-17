@@ -77,6 +77,13 @@
 > Designed by Apple in California - https://developer.apple.com/fonts/ 
 */
 
+.exo-2-font {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 /* Uncomment the line below to use Apple's Emoji font */
  @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css"); 
 
@@ -87,9 +94,9 @@ code, .codeBlockText-28BOxV, .codeLine-2C-9aH, .markup-eYLPri code.inline, .afte
 }
 
 * {
-  --font-primary: -apple-system,BlinkMacSystemFont,"SF Pro Display",sans-serif;
-  --font-display: -apple-system,BlinkMacSystemFont,"SF Pro Display",sans-serif;
-  --font-headline: -apple-system,BlinkMacSystemFont,"SF Pro Display",sans-serif;
+  --font-primary: --exo-2-font,BlinkMacSystemFont,"SF Pro Display",sans-serif;
+  --font-display: --exo-2-font,BlinkMacSystemFont,"SF Pro Display",sans-serif;
+  --font-headline: --exo-2-font,BlinkMacSystemFont,"SF Pro Display",sans-serif;
   text-rendering: optimizeLegibility;
   text-transform: none !important;
   letter-spacing: 0.015em;
